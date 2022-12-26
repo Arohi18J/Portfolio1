@@ -1,0 +1,206 @@
+@import url(https://i.pinimg.com/originals/12/39/24/123924f3a4b56ac178f65d70576a1216.jpg);
+
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+font-family:sans-serif;
+}
+section {
+padding: 200px;
+font-style: italic;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(bg.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2 {
+    font-size: 4em;
+    color:black;
+    font-weight: 300;
+    line-height: 1em;
+    font-family: "Times New Roman", Times, serif;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+}
+.banner h3{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+}
+
+.btn{
+    position: relative;
+    background:rgb(162, 157, 157);
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1.75px;
+    font-weight: 300;
+}
+header{
+
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: justify;
+    transition: 0.4s;
+    color: rgb(66, 11, 11)
+}
+header.sticky {
+background: white;
+padding: 15px 100px;
+box-shadow: 0 5px 15px rgb(32, 30, 30);
+}
+header .logo{
+    color: rgb(69, 14, 14);
+    font-size: 40px;
+    text-decoration: black;
+    font-weight: 1000;
+    letter-spacing: 1.25px;
+    font-style: italic;
+}
+header .sticky .logo {
+color: rgb(211, 184, 184);
+
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: rgb(12, 2, 2);
+    text-decoration: white;
+}
+header.sticky ul li a {
+color:black
+}
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+.heading h2 {
+    font-weight: 650;
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.contentBx {
+    padding-right: 32%;
+}
+.contentBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.w50 {
+    min-width: 50%;
+}
+img {
+    max-width: 100%;
+}
+.services {
+    background: black;
+    color:white;
+}
+.services h2 {
+    color: white;
+}
+.services .heading.white {
+    color: rgb(185, 177, 177);
+}
+.heading.white {
+color: black;
+}
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx {
+    background: black;
+    padding: 40px 20px;
+    color: ghostwhite;
+    max-width: 352px;
+    margin: 21px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBx:hover {
+    color:whitesmoke;
+    size: 10px;
+}
+
+
+.services .content .servicesBx h2 {
+    font-size: 2000px;
+    font-weight: 400;
+}
+ .headingwhite{
+    color: white;
+    size: 150px;
+
+ }
+.work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.work .content .workBx img 
+{
+    max-width: 100%;
+}
+.Contact {
+    background: rgb(47, 3, 3);
+    color:rgb(185, 177, 177)
+    
+}
+.formBx {
+    min-height: 90%;
+
+}
+.formBx form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contactInfo h3 {
+    color:white;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+</head>
+
+<body>
+<header>
+    <a href="#" class="logo">My Portfolio</a>
+    <div class="toggle"></div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</header>    
+    <section class="banner">
+        <div class="textBx">
+            <h2>I'm<br><span> Arohi Jambenal</span></h2>
+            <h3>I am a graphic designer and a full stack developer </h3>
+            <a href="#" class="btn">About Me</a>
+
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">
+        <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contextBx w50">
+                <h3>I am a passionate artist as well. I can paint on canvas </h3>
+                <p>Hey i am a student in TSEC studying in IT branch. I am learning to code in programming languages like C++,C and Java.
+                    I am practising my skills in HTML, CSS and JS. I have created 3 projects using HTML,CSS and JS. 
+                </p>
+            </div>
+            <div class="w50">
+                <img src="computer.png" class="img" width="500" height="300" >
+            </div>
+        </div>
+    </section>
+
+<section class="services">
+    <div class="heading white">
+        <h2>Services</h2>
+        <p>1. Web development</p>
+         <p>  2.App development</p> 
+         <p>3. Data Analysis</p> 
+        </p>
+        
+        </div>
+        
+            
+            
+            <div class="servicesBx">
+        
+                
+            </div>
+        </div>
+
+</section>
+
+<section class="work">
+    
+   
+    <div class="heading">
+        <h2>My Work</h2>
+        <img src="webo.png" width="500" height="300">
+        <h2>Web Design Projects</h2>
+        <p>These are few projects done by me and more are on the way.</p>
+            
+       
+        <p>I have done various projets and always keep on doing more</p>
+    </div>
+    <div class="heading">
+    <a href='#' class="btn" >View More</a>
+    </div> 
+</section>
+
+
+
+<section class="Contact"> 
+    <div class="heading">
+        <h2>Contact Me</h2>
+        <p>For collab/freelance services , ..contact me  at...</p>
+    </div>
+<div class="content">
+    <div class="ContactInfo">
+<h3>Contact Info</h3>
+<div class="ContactInfoBx" >
+<div class="box">
+<div class="icon">
+    <i class="fa fa-map-marker"></i>
+</div>
+    <div class="text">
+        <h3>Address</h3>
+        <p>Andheri(W), Amboli, Mumbai 400058</p>
+         </div>
+     </div>
+
+
+     <div class="box">
+        <div class="icon">
+            <i class="fa fa-phone"></i>
+        </div>
+            <div class="text">
+                <h3>phone</h3>
+                <p>+91 8828189481</p>
+                 </div>
+             </div>
+
+<div class="box">
+<div class="icon">
+    <i class="fa fa-envelope-o"></i>
+</div>
+    <div class="text">
+        <h3>Email</h3>
+        <p>arohihihi@gmail.com</p>
+         </div>
+     </div>
+
+    
+
+    </div>
+   </div>
+   <div class="formBx">
+       <form>
+           <h3>Message Me</h3>
+           <input type="text" name="" placeholder="Full Name">
+           <input type="email" name="" placeholder="Email Id">
+           <textarea placeholder="Your Message"></textarea>
+           <input type="submit" value="Send">
+       </form>
+   </div>
+  </div>
+</section>
+
+
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+   var header = document.querySelector('header');
+   header.classList.toggle('sticky',window.scrollY > 0);
+    });
+    </script>
+
+</body>
+</html>
